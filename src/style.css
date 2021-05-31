@@ -27,3 +27,11 @@ header {
   background-image: url(./img/rocket.svg);
   background-size: contain;
 }
+
+.menu__div {
+  display: flex;
+}
+
+.menu__nav {
+  flex-direction: row;
+}

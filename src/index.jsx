@@ -5,15 +5,22 @@ import './style.css';
 import { Home } from './Home';
 import { Verca } from './Verca';
 import { Majda } from './Majda';
+import { Footer } from './Footer';
 
 const App = () => {
   return (
     <Router>
-      <div>
-        <nav>
-          <Link to="/">Home</Link>
-          <Link to="/verca">Verča</Link>
-          <Link to="/majda">Majda</Link>
+      <div className="menu__div">
+        <nav className="menu__nav">
+          <ul>
+            <Link to="/">Home</Link>
+          </ul>
+          <ul>
+            <Link to="/verca">Verča</Link>
+          </ul>
+          <ul>
+            <Link to="/majda">Majda</Link>
+          </ul>
         </nav>
       </div>
       <Switch>
@@ -27,6 +34,7 @@ const App = () => {
           <Home />
         </Route>
       </Switch>
+      <Footer />
     </Router>
   );
 };
