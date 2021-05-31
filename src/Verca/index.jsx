@@ -37,28 +37,31 @@ export const Verca = () => {
         </p>
 
         <div className="buttons__socials">
-          <a href="https://www.facebook.com/veronika.prokupkova/">
+          <a
+            target="_blank"
+            href="https://www.facebook.com/veronika.prokupkova/"
+          >
             <img
               className="button__img"
               src="../assets/FB-logo.png"
               alt="Facebook"
             />
           </a>
-          <a href="https://www.linkedin.com/in/vprokupkova-cz/">
+          <a target="_blank" href="https://www.linkedin.com/in/vprokupkova-cz/">
             <img
               className="button__img"
               src="../assets/LI-logo.png"
               alt="Linked In"
             />
           </a>
-          <a href="https://github.com/VerPro">
+          <a target="_blank" href="https://github.com/VerPro">
             <img
               className="button__img"
               src="../assets/GH-logo.png"
               alt="Git Hub"
             />
           </a>
-          <a href="mailto:prokupkova.verca@gmail.com">
+          <a target="_blank" href="mailto:prokupkova.verca@gmail.com">
             <img
               className="button__img"
               src="../assets/mail-logo.png"

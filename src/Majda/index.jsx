@@ -19,28 +19,31 @@ export const Majda = () => {
         (2004), guacamole a pálavský víno.
       </p>
       <div className="buttons__socials">
-        <a href="https://www.facebook.com/magda.pazlarova/">
+        <a target="_blank" href="https://www.facebook.com/magda.pazlarova/">
           <img
             className="button__img"
             src="../assets/FB-logo.png"
             alt="Facebook"
           />
         </a>
-        <a href="https://www.linkedin.com/in/magdal%C3%A9na-pazlarov%C3%A1-3a1264175/">
+        <a
+          target="_blank"
+          href="https://www.linkedin.com/in/magdal%C3%A9na-pazlarov%C3%A1-3a1264175/"
+        >
           <img
             className="button__img"
             src="../assets/LI-logo.png"
             alt="Linked In"
           />
         </a>
-        <a href="https://github.com/mpazlar">
+        <a target="_blank" href="https://github.com/mpazlar">
           <img
             className="button__img"
             src="../assets/GH-logo.png"
             alt="Git Hub"
           />
         </a>
-        <a href="mailto:m.pazlarova@gmail.com">
+        <a target="_blank" href="mailto:m.pazlarova@gmail.com">
           <img
             className="button__img"
             src="../assets/mail-logo.png"
