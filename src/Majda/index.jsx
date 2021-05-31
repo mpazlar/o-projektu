@@ -4,7 +4,7 @@ export const Majda = () => {
   return (
     <main>
       <h1 className="nadpis">Majda</h1>
-      <img className="photo" src="../assets/majda.jpg" alt="Majda" />
+      <img className="photo" src="../assets/majda.png" alt="Majda" />
       <p className="perex">
         <span>Fulltime capybara enthusiast </span>
       </p>
