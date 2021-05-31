@@ -1,3 +1,21 @@
 .footer {
-  background-color: rgb(48, 167, 167);
+  background-color: #80aed1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 2%;
+  margin-bottom: 0%;
+}
+
+.footer__img {
+  height: 3rem;
+}
+
+.footer__email {
+  display: flex;
+  flex-direction: column;
+}
+
+h5 {
+  margin-bottom: 0;
 }
