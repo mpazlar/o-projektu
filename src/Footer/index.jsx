@@ -17,12 +17,12 @@ export const Footer = () => {
       <div className="footer__email">
         <h5>Napište nám!</h5>
         <h5>
-          Majda:
+          Majda: <br />
           <a href="mailto:m.pazlarova@gmail.com">m.pazlarova@gmail.com</a>
         </h5>
 
         <h5>
-          Verča:
+          Verča: <br />
           <a href="mailto:prokupkova.verca@gmail.com">
             prokupkova.verca@gmail.com
           </a>
