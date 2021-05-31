@@ -38,6 +38,16 @@ export const Home = () => {
           umožní v domácnosti práce rozdělit tak, že každý*á se bude podílet
           takovou měrou, aby všichni byli spokojeni.
         </p>
+        <img
+          className="spolfotka"
+          src="../assets/spolfotka.jpg"
+          alt="Společnná fotka týmu"
+        />
+        <figcaption>Covidově "společná" fotka týmu</figcaption>
+        <figcaption>
+          Majda a Verča jsou studentky Digitální akademie Czechitas
+        </figcaption>
+        <figcaption>Zdeněk je mentor a garant projektu</figcaption>
       </main>
     </>
   );

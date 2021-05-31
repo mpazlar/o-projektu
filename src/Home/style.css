@@ -8,3 +8,9 @@ main {
   justify-content: center;
   align-items: center;
 }
+
+.spolfotka {
+  height: 400px;
+  margin-bottom: 10px;
+  border-radius: 10%;
+}
