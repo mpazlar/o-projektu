@@ -1,3 +1,10 @@
 h5 > a {
   font-size: small;
 }
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

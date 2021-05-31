@@ -10,12 +10,23 @@ main {
 }
 
 p {
-  width: 70%;
+  width: 60%;
   text-align: center;
 }
 
-img {
+.photo {
   width: 200px;
   border-radius: 50%;
   margin: 20px;
+}
+
+.buttons__social {
+  display: flex;
+  justify-content: center;
+}
+
+.button__img {
+  height: 1.5rem;
+  padding: 0.7rem;
+  filter: grayscale(100%);
 }
