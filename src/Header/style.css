@@ -1,0 +1,11 @@
+.header__img {
+  height: 10rem;
+  background-image: url('../assets/header.png');
+  background-repeat: no-repeat;
+}
+
+h1 {
+  font-family: 'Wellfleet', cursive;
+  text-align: center;
+  margin: 2rem 0 0 0;
+}

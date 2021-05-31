@@ -1,0 +1,21 @@
+span {
+  font-weight: bold;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+p {
+  width: 70%;
+  text-align: center;
+}
+
+img {
+  width: 200px;
+  border-radius: 50%;
+  margin: 20px;
+}

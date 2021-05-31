@@ -14,7 +14,7 @@ export const Footer = () => {
         </a>
         <h5>Vytvořeno pro Czechitas©</h5>
       </div>
-      <p className="footer__email">
+      <div className="footer__email">
         <h5>Napište nám!</h5>
         <h5>
           Majda:
@@ -27,7 +27,7 @@ export const Footer = () => {
             prokupkova.verca@gmail.com
           </a>
         </h5>
-      </p>
+      </div>
     </footer>
   );
 };
