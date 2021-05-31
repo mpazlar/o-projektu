@@ -10,19 +10,20 @@ import { Footer } from './Footer';
 const App = () => {
   return (
     <Router>
-      <div className="menu__div">
-        <nav className="menu__nav">
-          <ul>
-            <Link to="/">Home</Link>
-          </ul>
-          <ul>
-            <Link to="/verca">Verča</Link>
-          </ul>
-          <ul>
-            <Link to="/majda">Majda</Link>
-          </ul>
-        </nav>
-      </div>
+      <nav className="menu__nav">
+        <Link className="menu__link" to="/">
+          Home
+        </Link>
+
+        <Link className="menu__link" to="/verca">
+          Verča
+        </Link>
+
+        <Link className="menu__link" to="/majda">
+          Majda
+        </Link>
+      </nav>
+
       <Switch>
         <Route exact path="/majda">
           <Majda />

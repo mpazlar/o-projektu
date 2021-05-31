@@ -3,3 +3,35 @@
 html {
   font-family: 'Open Sans', sans-serif;
 }
+
+.menu__nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: stretch;
+  height: 10rem;
+}
+
+a {
+  font-size: large;
+}
+
+.menu__link {
+  background-color: #80aed1;
+  flex-grow: 1;
+  display: flex;
+}
+
+.menu__btn {
+  border: none;
+  background-color: #80aed1;
+}
+
+.menu__link:hover {
+  background-color: #38b6ff;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  padding-bottom: 10px;
+}
