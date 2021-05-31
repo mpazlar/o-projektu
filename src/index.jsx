@@ -16,7 +16,7 @@ const App = () => {
       <Router>
         <nav className="menu__nav">
           <Link className="menu__link" to="/">
-            O projektu
+            Projekt
           </Link>
 
           <Link className="menu__link" to="/verca">
